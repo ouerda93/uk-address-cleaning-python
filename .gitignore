@@ -1,0 +1,22 @@
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fichiers de configuration et secrets
+.env
+.env.*
+!.env.example
+*.sql
+
+# Fichiers temporaires
+*.log
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Données volumineuses
+*.zip
+*.sqlite
+*.db

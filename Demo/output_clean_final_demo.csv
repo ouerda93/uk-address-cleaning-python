@@ -1,0 +1,26 @@
+texte_index,postcode,street_number,street_name,street_name_clean,street_name_clean_final
+0,OX1 4DN,135,High Street,135 High Street,135 High Street
+1,HX1 1DZ,,Halifax Borough Market,Halifax Borough Market,Halifax Borough Market
+2,B7 5TS,,Unit 6,"Unit 6, Maple Business Park","Unit 6, Maple Business Park"
+3,PR2 8FT,5,Sandown Close,5 Sandown Close,5 Sandown Close
+4,CO12 3RN,36,Marine Parade,36 Marine Parade,36 Marine Parade
+5,W8 5NP,12B,Kensington Arcade,12B Kensington Arcade,12B Kensington Arcade
+6,M1 8AN,,,,
+7,L15 4QG,78,"Wellington Road, Highfield Industrial Estate","78 Wellington Road, Highfield Industrial Estate","78 Wellington Road, Highfield Industrial Estate"
+8,LA22 9DJ,,Compston Road,Compston Road,Compston Road
+9,,,,,
+10,SE23 2RN,,Houston Road,Houston Road,Houston Road
+11,BA3 4BH,,Unit 40 Second Avenue,"Unit 40 Second Avenue, Westfield Trading Est","Unit 40 Second Avenue, Westfield Trading Est"
+12,,,Unit 10 Industrial Estate,Unit 10 Industrial Estate,Unit 10 Industrial Estate
+13,,45,Catering Street,45 Catering Street,45 Catering Street
+14,,7,Game Street,7 Game Street,7 Game Street
+15,LA23 1DP,,Ellerthwaite Square,Ellerthwaite Square,Ellerthwaite Square
+16,NG17 4BG,125a,Outram St,125a Outram St,125a Outram St
+17,KT3 4NW,220-222,Burlington Road,220-222 Burlington Road,220-222 Burlington Road
+18,L1 6EG,52,Whitechapel,52 Whitechapel,52 Whitechapel
+19,SW11 3BN,527,Battersea Park Road,527 Battersea Park Road,527 Battersea Park Road
+20,WC2N 5HY,34-35,Strand,"34-35 Strand, Charing Cross","34-35 Strand, Charing Cross"
+21,WC2H 9JQ,71-75,Shelton Street,"71-75 Shelton Street, Covent Garden","71-75 Shelton Street, Covent Garden"
+22,SW9 8LA,17a,Electric Lane,17a Electric Lane,17a Electric Lane
+23,EN3 6SG,149,Mandeville Road,149 Mandeville Road,149 Mandeville Road
+24,DA14 6NE,,Onega House,"Onega House, 112 Main Road","Onega House, 112 Main Road"
