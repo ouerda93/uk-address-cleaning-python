@@ -129,6 +129,7 @@ Une vérification SQL a montré qu'un code postal enregistré dans la table des 
 Cette incohérence met en évidence la nécessité de contrôler les règles de rapprochement, la qualité des référentiels et les indicateurs produits par les traitements.
 
 Aucun taux global de précision n'est annoncé sans évaluation indépendante sur un jeu de référence fiable.
+Les tests du script complémentaire sont en cours de consolidation. Les résultats sur les 25 exemples ne constituent pas une estimation de la précision globale du pipeline.
 
 ## 9. Démonstration Python reproductible
 
@@ -154,10 +155,20 @@ Une comparaison avec un résultat précédemment généré a confirmé que les 2
 
 Cette vérification démontre la reproductibilité de la démonstration, mais pas la précision globale du pipeline professionnel.
 
+**Script complémentaire de validation**
+
+Le fichier `code_com_demo_corrige.py` regroupe plusieurs étapes de traitement, d'enrichissement géographique et de validation des adresses britanniques.
+
+Les tests de démonstration portent sur 25 adresses. Ils permettent de comparer les informations extraites avec des valeurs de référence et d'identifier les écarts.
+
+Les résultats montrent que certaines règles d'extraction et de détection des villes nécessitent encore des améliorations.
+
+Ce script complémentaire nécessite des fichiers de référence qui ne sont pas tous inclus dans le dépôt public. Il n'est donc pas présenté comme une démonstration entièrement autonome.
+
 ## 10. Organisation du projet GitHub
 
-```text
-Projet_GitHub/
+
+uk-address-cleaning-python/
 │
 ├── README.md
 ├── .gitignore
@@ -165,8 +176,8 @@ Projet_GitHub/
 └── Demo/
     ├── 2_samples_demo.json
     ├── nettoyage_demo.py
+    ├── code_com_demo_corrige.py
     └── output_clean_final_demo.csv
-```
 
 Ce dépôt présente une démonstration simplifiée du projet professionnel.
 
