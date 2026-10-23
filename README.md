@@ -129,6 +129,7 @@ Une vérification SQL a montré qu'un code postal enregistré dans la table des 
 Cette incohérence met en évidence la nécessité de contrôler les règles de rapprochement, la qualité des référentiels et les indicateurs produits par les traitements.
 
 Aucun taux global de précision n'est annoncé sans évaluation indépendante sur un jeu de référence fiable.
+
 Les tests du script complémentaire sont en cours de consolidation. Les résultats sur les 25 exemples ne constituent pas une estimation de la précision globale du pipeline.
 
 ## 9. Démonstration Python reproductible
@@ -167,7 +168,9 @@ Ce script complémentaire nécessite des fichiers de référence qui ne sont pas
 
 ## 10. Organisation du projet GitHub
 
+## 10. Organisation du projet GitHub
 
+```text
 uk-address-cleaning-python/
 │
 ├── README.md
@@ -178,6 +181,7 @@ uk-address-cleaning-python/
     ├── nettoyage_demo.py
     ├── code_com_demo_corrige.py
     └── output_clean_final_demo.csv
+```
 
 Ce dépôt présente une démonstration simplifiée du projet professionnel.
 
